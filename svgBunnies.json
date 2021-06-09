@@ -1,0 +1,36 @@
+//svgBunnies.json
+{
+	"origin": [
+		"<?xml version='1.0' encoding='UTF-8' standalone='no'?><svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.1'  style='enable-background:new 0 0 40 20;' id='svg2' xml:space='preserve'  viewBox='-200 200 400 400' width='400' height='400'><g transform='translate(0,400)'><g transform='scale(1,-1)'>#background##bunnyEars##bunnyHead##bunnyEyes##bunnyMouth##bunnyNose#</g></g></svg>"
+	],
+	"background": [
+		"<rect x='-100' y='-100' width='200' height='200' fill='snow' />"
+	],
+	"bunnyEars": [
+		"<ellipse id='left ear' cx='-70' cy='80' rx='40' ry='80' stroke='#color#' stroke-width='10' fill='#color#' transform='rotate(22 -110 80)'/><ellipse id='right ear' cx='70' cy='80' rx='40' ry='80' stroke='#color#' stroke-width='10' fill='#color#' transform='rotate(-22 110 80)' />"
+	],
+	"bunnyHead": [
+		"<circle id='head' cx='0' cy='-60' r='110' stroke='#color#' stroke-width='10' fill='#color#' />"
+	],
+	"bunnyNose": [
+		"<polygon id='nose' points='0,-90 -20,-60 20,-60' stroke='#color#' stroke-width='10' fill='#color#' />"
+	],
+	"bunnyEyes": [
+		"<circle id='left eye' cx='-40' cy='-20' r='30' stroke='#color#' stroke-width='10' fill='#color#' /><circle id='right eye' cx='40' cy='-20' r='30' stroke='#color#' stroke-width='10' fill='#color#' />"
+	],
+	"bunnyMouth": [
+		"<g stroke='#color#' ><path id='left mouth' d='M -2 -100 q 10 -40 -36 -20'  stroke-width='8' fill='none' /><path id='left mouth' d='M 2 -100 q -10 -40 36 -20'  stroke-width='8' fill='none' /></g>"
+	],
+	"color": [
+		"pink",
+		"purple",
+		"lightblue",
+		"black",
+		"white",
+		"gray",
+		"lightyellow",
+		"lightgray",
+		"teal",
+		"lightgreen"
+	]
+}

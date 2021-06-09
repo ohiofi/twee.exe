@@ -1,0 +1,56 @@
+// svgRobots.json
+{
+	"origin": [
+		"<?xml version='1.0' encoding='UTF-8' standalone='no'?><svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.1'  style='enable-background:new 0 0 40 20;' id='svg2' xml:space='preserve'  viewBox='-100 100 200 200' width='200' height='200'><g transform='translate(0,200)'><g transform='scale(1,-1)'><g transform='rotate(0)'>#background##antenna##roboEars##roboHead##roboMouth##roboNose##roboEyes#</g></g></g></svg>"
+	],
+	"background": [
+		"<rect x='-100' y='-100' width='200' height='200' fill='snow' />"
+	],
+	"antenna": [
+		"<g transform='rotate(#rotation#)'><rect id='antenna' x='-2' y='60' width='#digit#' height='25' fill='gray' /><circle id='antenna top' cx='0' cy='8#digit#' r='#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /></g>"
+	],
+	"roboEars": [
+		"<circle id='left ear' cx='-6#digit#' cy='10' r='2#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /><circle id='right ear' cx='6#digit#' cy='10' r='2#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' />"
+	],
+	"roboHead": [
+		"<g transform='rotate(#rotation#)'><rect id='head' x='-82' y='-82' rx='#digit#' ry='#digit#' width='164' height='148'  stroke='#color#' stroke-width='#digit#' fill='gray' /></g>"
+	],
+	"roboMouth": [
+		"<g transform='rotate(#rotation#)'><rect id='mouth' x='-73' y='-75' width='14#digit#' height='5#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' rx='#digit#' ry='#digit#' /><polyline id='teeth' points='-70,-4#digit# -63,-2#digit# -53,-#digit##digit# -43,-#digit##digit# -33,-#digit##digit# -23,-#digit##digit# -13,-#digit##digit# 13,-#digit##digit# 23,-#digit##digit# 33,-#digit##digit# 43,-#digit##digit# 50,-#digit##digit# 60,-2#digit# 70,-4#digit#' fill='silver' /></g>"
+	],
+	"roboNose": [
+		"<rect id='nose' x='-1#digit#' y='-10' width='2#digit#' height='3#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' transform = 'rotate(#digit##digit##digit# 0 13)'/>"
+	],
+	"roboEyes": [
+		"<g transform='rotate(#rotation#)'><circle id='left eye' cx='-4#digit#' cy='30' r='2#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /><circle id='right eye' cx='4#digit#' cy='30' r='2#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /></g>"
+	],
+	"color": [
+		"pink",
+		"purple",
+		"lightblue",
+		"black",
+		"white",
+		"gray",
+		"lightyellow",
+		"lightgray",
+		"teal",
+		"lightgreen"
+	],
+	"digit": [
+		"2",
+		"3",
+		"4",
+		"5",
+		"6",
+		"7"
+	],
+	"rotation": [
+		"-3",
+		"-2",
+		"-1",
+		"0",
+		"1",
+		"2",
+		"3"
+	]
+}

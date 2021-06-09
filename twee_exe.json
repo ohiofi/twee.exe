@@ -1,0 +1,121 @@
+{
+	"origin": ["#bear#","#robot#","#flower#","#bunny#"],
+
+
+	"bear": [
+		"{svg <?xml version='1.0' encoding='UTF-8' standalone='no'?><svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.1'  style='enable-background:new 0 0 40 20;' id='svg2' xml:space='preserve'  viewBox='-200 200 400 400' width='400' height='400'><g transform='translate(0,400)'><g transform='scale(1,-1)'>#background##bearEars##bearHead##bearEyes##bearMouth##bearNose#</g></g></svg>}"
+	],
+	"background": [
+		"<rect x='-200' y='-200' width='400' height='400' fill='snow' />"
+	],
+	"bearEars": [
+		"<g transform='rotate(#rotation#)'><circle id='left ear' cx='-12#digit#' cy='6#digit#' r='4#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /><circle id='right ear' cx='12#digit#' cy='6#digit#' r='4#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /></g>"
+	],
+	"bearHead": [
+		"<g transform='rotate(#rotation#)'><circle id='head' cx='0' cy='0' r='12#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /><circle id='muzzle' cx='0' cy='-50' r='60' stroke='#color#' stroke-width='#digit#' fill='#color#' /></g>"
+	],
+	"bearNose": [
+		"<g transform='rotate(#rotation#)'><polygon id='nose' points='0,-45 -20,-20 20,-20' stroke='#color#' stroke-width='#digit#' fill='#color#' /></g>"
+	],
+	"bearEyes": [
+		"<g transform='rotate(#rotation#)'><circle id='left eye' cx='-50' cy='40' r='2#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /><circle id='right eye' cx='50' cy='40' r='2#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /></g>"
+	],
+	"bearMouth": [
+		"<g stroke='#color#' transform='rotate(#rotation#)'>><path id='left mouth' d='M -2 -50 q 10 -40 -36 -20'  stroke-width='8' fill='none' /><path id='left mouth' d='M 2 -50 q -10 -40 36 -20'  stroke-width='8' fill='none' /></g>"
+	],
+
+
+	"robot": [
+		"{svg <?xml version='1.0' encoding='UTF-8' standalone='no'?><svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.1'  style='enable-background:new 0 0 40 20;' id='svg2' xml:space='preserve'  viewBox='-200 200 400 400' width='400' height='400'><g transform='translate(0,400)'><g transform='scale(1,-1)'><g transform='rotate(0)'>#background##antenna##roboEars##roboHead##roboMouth##roboNose##roboEyes#</g></g></g></svg>}"
+	],
+	"antenna": [
+		"<g transform='rotate(#rotation#)'><rect id='antenna' x='-4' y='120' width='#digit#' height='50' fill='gray' /><circle id='antenna top' cx='0' cy='16#digit#' r='#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /></g>"
+	],
+	"roboEars": [
+		"<circle id='left ear' cx='-12#digit#' cy='20' r='4#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /><circle id='right ear' cx='12#digit#' cy='20' r='4#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' />"
+	],
+	"roboHead": [
+		"<g transform='rotate(#rotation#)'><rect id='head' x='-164' y='-164' rx='#digit#' ry='#digit#' width='328' height='296'  stroke='#color#' stroke-width='#digit#' fill='gray' /></g>"
+	],
+	"roboMouth": [
+		"<g transform='rotate(#rotation#)'><rect id='mouth' x='-146' y='-150' width='28#digit#' height='10#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' rx='#digit#' ry='#digit#' /><polyline id='teeth' points='-140,-8#digit# -120,-4#digit# -100,-#digit##digit# -80,-#digit##digit# -60,-#digit##digit# -40,-#digit##digit# -20,-#digit##digit# 20,-#digit##digit# 40,-#digit##digit# 60,-#digit##digit# 80,-#digit##digit# 100,-#digit##digit# 120,-4#digit# 140,-8#digit#' fill='silver' /></g>"
+	],
+	"roboNose": [
+		"<rect id='nose' x='-2#digit#' y='-20' width='4#digit#' height='6#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' transform = 'rotate(#digit##digit##digit# 0 26)'/>"
+	],
+	"roboEyes": [
+		"<g transform='rotate(#rotation#)'><circle id='left eye' cx='-8#digit#' cy='60' r='4#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /><circle id='right eye' cx='8#digit#' cy='60' r='4#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /></g>"
+	],
+	"digit": [
+		"4",
+		"5",
+		"6",
+		"7",
+		"8",
+		"9"
+	],
+	"rotation": [
+		"-6",
+		"-4",
+		"-2",
+		"0",
+		"3",
+		"4",
+		"6"
+	],
+
+
+"flower": [
+		"{svg <?xml version='1.0' encoding='UTF-8' standalone='no'?><svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.1'  style='enable-background:new 0 0 40 20;' id='svg2' xml:space='preserve'  viewBox='-200 200 400 400' width='400' height='400'><g transform='translate(0,400)'><g transform='scale(1,-1)'>#background##pedals##face#</g></g></svg>}"
+	],
+	"pedals": [
+		"<g transform='rotate(#digit##digit##digit##digit#)'><ellipse cx='0' cy='0' rx='2#digit#' ry='180' fill='#color#' transform = 'rotate(0 0 0)'/><ellipse cx='0' cy='0' rx='2#digit#' ry='180' fill='#color#' transform = 'rotate(30 0 0)'/><ellipse cx='0' cy='0' rx='2#digit#' ry='180' fill='#color#' transform = 'rotate(60 0 0)'/><ellipse cx='0' cy='0' rx='2#digit#' ry='180' fill='#color#' transform = 'rotate(90 0 0)'/><ellipse cx='0' cy='0' rx='2#digit#' ry='180' fill='#color#' transform = 'rotate(120 0 0)'/><ellipse cx='0' cy='0' rx='2#digit#' ry='180' fill='#color#' transform = 'rotate(150 0 0)'/></g>"
+	],
+	"face": [
+		"<g transform='rotate(#rotation#)'><circle id='head' r='80' stroke='#color#' stroke-width='6' fill='#color#' /><path id='left eye' d='M -40 20 q 16 20 32 0' stroke='silver' stroke-width='6' fill='none' /><path id='right eye' d='M 40 20 q -16 20 -32 0' stroke='silver' stroke-width='6' fill='none' /><path id='mouth' d='M -48 -16 q 48 -56 96 0' fill='silver' /></g>"
+	],
+
+
+		"bunny": [
+			"{svg <?xml version='1.0' encoding='UTF-8' standalone='no'?><svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.1'  style='enable-background:new 0 0 40 20;' id='svg2' xml:space='preserve'  viewBox='-200 200 400 400' width='400' height='400'><g transform='translate(0,400)'><g transform='scale(1,-1)'>#background##bunnyEars##bunnyHead##bunnyEyes##bunnyMouth##bunnyNose#</g></g></svg>}"
+		],
+		"bunnyEars": [
+			"<g transform='rotate(#rotation#)'><ellipse id='left ear' cx='-7#digit#' cy='80' rx='3#digit#' ry='7#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' transform='rotate(22 -110 80)'/><ellipse id='right ear' cx='7#digit#' cy='80' rx='3#digit#' ry='7#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' transform='rotate(-22 110 80)' /></g>"
+		],
+		"bunnyHead": [
+			"<circle id='head' cx='0' cy='-60' r='11#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' />"
+		],
+		"bunnyNose": [
+			"<g transform='rotate(#rotation#)'><polygon id='nose' points='0,-90 -20,-60 20,-60' stroke='#color#' stroke-width='#digit#' fill='#color#' /></g>"
+		],
+		"bunnyEyes": [
+			"<g transform='rotate(#rotation#)'><circle id='left eye' cx='-4#digit#' cy='-20' r='3#digit#' stroke='#color#' stroke-width='#digit#' fill='#color#' /><circle id='right eye' cx='4#digit#' cy='-20' r='3#digit#' stroke='#color#' stroke-width='10' fill='#color#' /></g>"
+		],
+		"bunnyMouth": [
+			"<g stroke='#color#' stroke-width='#digit#' transform='rotate(#rotation#)'><path id='left mouth' d='M -2 -100 q 10 -40 -36 -20'  fill='none' /><path id='left mouth' d='M 2 -100 q -10 -40 36 -20'  fill='none' /></g>"
+		],
+
+
+	"color": [
+		"pink",
+		"purple",
+		"lightblue",
+		"black",
+		"white",
+		"lightyellow",
+		"teal",
+		"lightgreen",
+		"CornflowerBlue",
+		"lightpink",
+		"coral",
+		"burlywood",
+		"wheat",
+		"rgb(255, 180, 153)",
+		"rgb(224,224,224)",
+		"rgb(160,160,160)",
+		"rgb(128,128,128)",
+		"rgb(96,96,96)",
+		"rgb(64,64,64)",
+		"rgb(32,32,32)"
+	]
+}
